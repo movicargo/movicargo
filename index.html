@@ -7,27 +7,20 @@
 
 <title>MOVICARGO | Logística y Transporte</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 <style>
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-scroll-behavior:smooth;
-}
-
 body{
 font-family:'Inter',sans-serif;
-background:#eef3f8;
-color:#1b1b1b;
+background:#eef4fa;
+color:#222;
 }
 
 .hero{
 height:100vh;
 background:
-linear-gradient(rgba(6,27,51,.80),rgba(6,27,51,.80)),
+linear-gradient(rgba(7,43,79,.75),rgba(7,43,79,.75)),
 url('banner.jpg');
 background-size:cover;
 background-position:center;
@@ -41,31 +34,28 @@ color:white;
 
 .hero-content{
 max-width:900px;
+background:rgba(7,43,79,.75);
+padding:50px;
+border-radius:30px;
+border:3px solid #F7941D;
+backdrop-filter:blur(4px);
 }
 
 .hero h1{
 font-family:'Cormorant Garamond',serif;
 font-size:5rem;
 margin-bottom:15px;
-letter-spacing:3px;
-color:#ffffff;
+letter-spacing:2px;
+color:white;
 }
 
 .hero p{
 font-size:1.2rem;
-margin-bottom:35px;
-color:#dbe6f2;
-}
-
-.buttons{
-display:flex;
-justify-content:center;
-gap:15px;
-flex-wrap:wrap;
+margin-bottom:30px;
 }
 
 .btn{
-background:#ff9f1a;
+background:#F7941D;
 color:white;
 padding:14px 28px;
 border-radius:50px;
@@ -76,12 +66,7 @@ transition:.3s;
 
 .btn:hover{
 transform:translateY(-4px);
-}
-
-.section{
-padding:90px 20px;
-max-width:1200px;
-margin:auto;
+background:#ffab3d;
 }
 
 .section-title{
@@ -89,80 +74,45 @@ font-family:'Cormorant Garamond',serif;
 font-size:3rem;
 text-align:center;
 margin-bottom:20px;
-color:#0d3f6e;
-}
-
-.subtitle{
-text-align:center;
-max-width:850px;
-margin:auto;
-margin-bottom:50px;
-color:#555;
-line-height:1.7;
-}
-
-.menu-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:25px;
+color:#072B4F;
 }
 
 .card{
 background:white;
 padding:30px;
 border-radius:25px;
-box-shadow:0 12px 30px rgba(0,0,0,.08);
-border-top:6px solid #ff9f1a;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+border-top:5px solid #2D6EA4;
 }
 
 .card h3{
-color:#0d3f6e;
+color:#2D6EA4;
 margin-bottom:15px;
-font-size:1.3rem;
-}
-
-.card p{
-color:#555;
-line-height:1.7;
+font-size:1.4rem;
 }
 
 .highlight{
-background:#0d3f6e;
+background:#072B4F;
 color:white;
 padding:90px 20px;
 text-align:center;
 }
 
 .highlight h2{
-font-family:'Cormorant Garamond',serif;
 font-size:3rem;
 margin-bottom:20px;
-color:#ffb347;
-}
-
-.highlight p{
-max-width:900px;
-margin:auto;
-font-size:1.15rem;
-line-height:1.8;
+font-family:'Cormorant Garamond',serif;
+color:#F7941D;
 }
 
 .contact{
-padding:90px 20px;
 background:white;
 text-align:center;
-}
-
-.contact-buttons{
-display:flex;
-justify-content:center;
-gap:15px;
-flex-wrap:wrap;
-margin-top:30px;
+padding:90px 20px;
 }
 
 .contact-buttons a{
-background:#ff9f1a;
+background:#F7941D;
 color:white;
 padding:14px 28px;
 border-radius:50px;
@@ -171,14 +121,11 @@ font-weight:600;
 }
 
 footer{
-background:#082742;
+background:#072B4F;
 color:white;
 text-align:center;
 padding:40px 20px;
-}
-
-footer p{
-margin:8px 0;
+border-top:4px solid #F7941D;
 }
 
 @media(max-width:768px){
@@ -189,10 +136,6 @@ font-size:3rem;
 
 .section-title{
 font-size:2.2rem;
-}
-
-.hero p{
-font-size:1rem;
 }
 
 }
@@ -209,7 +152,7 @@ font-size:1rem;
 <h1>MOVICARGO</h1>
 
 <p>
-Logística y Transporte entre Buenos Aires, Entre Ríos y Corrientes
+Logística y Transporte · Buenos Aires · Entre Ríos · Corrientes
 </p>
 
 <div class="buttons">
@@ -237,7 +180,8 @@ WhatsApp
 <h2>SI ENTRA, LO LLEVAMOS</h2>
 
 <p>
-Transportamos sobres, documentación, cajas, bolsas, mercadería por pallet y cargas industriales. Trabajamos para comercios, supermercados, fábricas, corralones, distribuidores y emprendedores.
+Transportamos sobres, documentación, cajas, bolsas, mercadería por pallet y cargas industriales.
+Brindamos soluciones logísticas para comercios, industrias, distribuidores y emprendedores.
 </p>
 
 </section>
@@ -245,33 +189,34 @@ Transportamos sobres, documentación, cajas, bolsas, mercadería por pallet y ca
 <section class="section">
 
 <h2 class="section-title">
-Respaldo Total
+Nuestra Propuesta
 </h2>
 
 <p class="subtitle">
-Tu mercadería en buenas manos. Operamos con unidades habilitadas, documentación vigente y cobertura activa durante todo el recorrido.
+Conectamos proveedores de Buenos Aires con negocios de Entre Ríos y Corrientes mediante un servicio rápido, seguro y directo.
 </p>
 
 <div class="menu-grid">
 
 <div class="card">
-<h3>🛡 Seguro de Carga</h3>
-<p>Todas nuestras unidades cuentan con cobertura activa.</p>
+<h3>Tiendas y Comercios</h3>
+<p>
+Trabajamos con tiendas, zapaterías, corralones y supermercados.
+</p>
 </div>
 
 <div class="card">
-<h3>🏭 SENASA Vigente</h3>
-<p>Habilitados para ingresar a plantas y transportar distintos tipos de carga.</p>
+<h3>Empresas e Industrias</h3>
+<p>
+Movemos mercadería industrial, insumos y cargas de gran volumen.
+</p>
 </div>
 
 <div class="card">
-<h3>📄 Documentación al Día</h3>
-<p>Flota y habilitaciones actualizadas.</p>
-</div>
-
-<div class="card">
-<h3>👨‍✈️ Choferes Certificados</h3>
-<p>Equipos capacitados y en regla.</p>
+<h3>Emprendedores</h3>
+<p>
+Retiramos productos en proveedores y los entregamos directamente en destino.
+</p>
 </div>
 
 </div>
@@ -288,45 +233,79 @@ Lo Que Hacemos Por Vos
 
 <div class="card">
 <h3>🚚 Retiro en Buenos Aires</h3>
-<p>Buscamos tu mercadería directamente en proveedor, fábrica o depósito.</p>
+<p>
+Buscamos tu mercadería en proveedor, fábrica o depósito.
+</p>
 </div>
 
 <div class="card">
 <h3>📦 Transporte Directo</h3>
-<p>Sin escalas y sin intermediarios.</p>
+<p>
+Sin escalas y sin intermediarios.
+</p>
 </div>
 
 <div class="card">
 <h3>🏠 Entrega en Destino</h3>
-<p>Entregamos en local, depósito o domicilio.</p>
+<p>
+En tu local, depósito o domicilio.
+</p>
+</div>
+
+<div class="card">
+<h3>🏭 SENASA Vigente</h3>
+<p>
+Habilitados para ingresar a plantas y transportar diferentes tipos de carga.
+</p>
+</div>
+
+<div class="card">
+<h3>🛡 Seguro de Carga</h3>
+<p>
+Todas nuestras unidades cuentan con cobertura activa.
+</p>
 </div>
 
 <div class="card">
 <h3>📍 Seguimiento Activo</h3>
-<p>Sabés dónde está tu envío durante todo el trayecto.</p>
-</div>
-
-<div class="card">
-<h3>🏪 Para Comercios</h3>
-<p>Tiendas, zapaterías, supermercados y corralones.</p>
-</div>
-
-<div class="card">
-<h3>🏭 Para Empresas</h3>
-<p>Mercadería industrial, insumos y cargas de gran volumen.</p>
+<p>
+Sabés dónde está tu envío durante todo el recorrido.
+</p>
 </div>
 
 </div>
 
 </section>
 
-<section class="highlight">
+<section class="section">
 
-<h2>Tu Mercadería, En Buenas Manos</h2>
+<h2 class="section-title">
+Respaldo Total
+</h2>
 
-<p>
-Desde un sobre hasta una carga industrial. Si entra en nuestras unidades, lo llevamos.
-</p>
+<div class="menu-grid">
+
+<div class="card">
+<h3>Seguro de Carga</h3>
+<p>Todas las unidades aseguradas.</p>
+</div>
+
+<div class="card">
+<h3>SENASA</h3>
+<p>Habilitación vigente.</p>
+</div>
+
+<div class="card">
+<h3>Documentación</h3>
+<p>Toda la documentación al día.</p>
+</div>
+
+<div class="card">
+<h3>Choferes</h3>
+<p>Equipos certificados y en regla.</p>
+</div>
+
+</div>
 
 </section>
 
@@ -360,8 +339,8 @@ Lunes a Viernes<br>
 <h3>Entre Ríos</h3>
 
 <p>
-Gualeguaychú<br>
 Concepción del Uruguay<br>
+Gualeguaychú<br>
 Ubajay<br>
 San Salvador<br>
 General Campos<br>
@@ -396,7 +375,7 @@ Paso de los Libres
 <h2>🚛 Salidas Todos Los Días</h2>
 
 <p>
-Conectamos Buenos Aires con Entre Ríos y Corrientes mediante un servicio rápido, seguro y confiable.
+Operamos diariamente entre Buenos Aires, Entre Ríos y Corrientes para garantizar entregas rápidas y seguras.
 </p>
 
 </section>
@@ -431,13 +410,15 @@ Instagram
 
 <footer>
 
-<p><strong>MOVICARGO</strong></p>
-
 <p>
+MOVICARGO · Logística y Transporte
+</p>
+
+<p style="margin-top:10px;">
 Buenos Aires · Entre Ríos · Corrientes
 </p>
 
-<p>
+<p style="margin-top:10px;">
 SI ENTRA, LO LLEVAMOS
 </p>
 
